@@ -8,7 +8,7 @@ body:
     attributes:
       label: História
       description: Use o formato "Como [usuário], quero [ação] para [benefício]"
-      placeholder: Exemplo: Como músico da banda, quero visualizar os PDFs das músicas para poder tocar nas apresentações
+      placeholder: "Exemplo: Como músico da banda, quero visualizar os PDFs das músicas para poder tocar nas apresentações"
     validations:
       required: true
 
@@ -28,4 +28,4 @@ body:
     attributes:
       label: Notas adicionais
       description: Informações extras, dependências ou links de mockups
-      placeholder: Exemplo: Esta história depende da criação do sistema de autenticação
+      placeholder: "Exemplo: Esta história depende da criação do sistema de autenticação"
