@@ -1,0 +1,31 @@
+name: Task
+description: Template para criação de tasks técnicas
+title: "[Task]: "
+labels: ["task"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição
+      description: Explique o que precisa ser feito nesta task
+      placeholder: "Exemplo: Criar endpoint GET /bands no FastAPI"
+    validations:
+      required: true
+
+  - type: input
+    id: related_story
+    attributes:
+      label: User Story relacionada
+      description: Número ou link da User Story que esta task implementa
+      placeholder: "#12"
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Critérios de conclusão
+      description: Liste o que define que esta task está completa
+      placeholder: |
+        - Endpoint retorna 200 com dados corretos
+        - Testes unitários escritos
