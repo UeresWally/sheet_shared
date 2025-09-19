@@ -1,0 +1,31 @@
+name: User Story
+description: Template para criação de user stories
+title: "[Story]: "
+labels: ["user story"]
+body:
+  - type: textarea
+    id: user_story
+    attributes:
+      label: História
+      description: Use o formato "Como [usuário], quero [ação] para [benefício]"
+      placeholder: Exemplo: Como músico da banda, quero visualizar os PDFs das músicas para poder tocar nas apresentações
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Critérios de aceitação
+      description: Liste os critérios que determinam quando essa história está concluída
+      placeholder: |
+        - O usuário consegue fazer login
+        - O usuário consegue acessar a lista de músicas da banda
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notas adicionais
+      description: Informações extras, dependências ou links de mockups
+      placeholder: Exemplo: Esta história depende da criação do sistema de autenticação
